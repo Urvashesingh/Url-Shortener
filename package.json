@@ -23,7 +23,7 @@
     "loadtest": "docker run --rm -i --network url-shortener_default -v \"%cd%/loadtest:/scripts\" grafana/k6:latest run /scripts/redirect.js"
   },
   "dependencies": {
-    "@prisma/client": "^6.2.1",
+    "@prisma/client": "^7.10.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "ioredis": "^6.0.0",
